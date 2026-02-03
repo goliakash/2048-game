@@ -20,29 +20,6 @@ AWS Load Balancer – External Access
 
 Git & GitHub – Version Control
 
-🏗️ Architecture Overview
-User
- ↓
-AWS Load Balancer
- ↓
-Kubernetes Service (LoadBalancer)
- ↓
-Kubernetes Pods
- ↓
-Docker Container (2048 Game)
-
-📁 Project Structure
-.
-├── Dockerfile
-├── index.html
-├── js/
-├── style/
-├── k8s/
-│   ├── deployment.yaml
-│   └── service.yaml
-├── README.md
-└── LICENSE.txt
-
 🛠️ What I Did in This Project
 
 Dockerized the 2048 web game using Nginx
